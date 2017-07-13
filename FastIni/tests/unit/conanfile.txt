@@ -1,0 +1,11 @@
+[requires]
+GMock/master@iblis_ms/stable
+
+[generators]
+cmake
+
+[imports]
+lib, *.a -> ./lib
+lib, *.lib -> ./lib
+docs, * -> ./docs
+
